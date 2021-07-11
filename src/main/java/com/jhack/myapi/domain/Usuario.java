@@ -67,6 +67,14 @@ public class Usuario implements Serializable {
 		this.senha = senha;
 	}
 
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
 	@Override
 	public int hashCode() {
 		final int prime = 31;
